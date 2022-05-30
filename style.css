@@ -1,0 +1,8 @@
+body{background-color: grey;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.hide{
+   display: none; 
+}
