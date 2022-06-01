@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script>
     <title>Quiz Generator</title>
   </head>
 
    <!-- Added timer -->
    <p id="countdown"></p>
-   
+
   <body>
     <!-- Initial screen -->
     <div class="initialScreen">
       <h1>Answer as many questions in 30 seconds</h1>
-      <button class="name">Click me to start</button>
+
+    </div>
+
+    <!-- Added buttons -->
+    <div class="buttonControl">
+      <button id="start-btn" class="start-btn-btn">Click me to start</button>
+      <button id="next-btn" class="next-btn-btn hide">Next</button>
     </div>
 
     <!-- quiz started -->
-    <div id="quiz">
-      <div class="questions">
-        <!-- class="hide"> -->
-      </div>
+    <div class="container">
+      <div id="question-container" class="hide">
+        <div id="question" class="quest">Question 1</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+    </div>
+
+    <!-- for the scores  -->
+
+    <div class="score">
+      <span id="right-answers"></span>
     </div>
 
     <!-- submit the quiz -->
@@ -38,7 +54,8 @@
     <!-- Results of the quiz -->
     <div id="results"></div>
 
-    <script src="timer.js"></script>
+    
     <script src="script.js"></script>
+    <script src="timer.js"></script>
   </body>
 </html>
