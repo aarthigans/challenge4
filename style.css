@@ -6,3 +6,17 @@ body{background-color: grey;
 .hide{
    display: none; 
 }
+
+p{
+    background-color: azure;
+    display: inline-flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    right: 0;
+    
+    font-size: 30px;
+    margin: 0;
+    height: 70px;
+    width: 200px;
+}

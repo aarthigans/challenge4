@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
     <title>Quiz Generator</title>
-</head>
-<body>
+  </head>
+
+   <!-- Added timer -->
+   <p id="countdown"></p>
+   
+  <body>
     <!-- Initial screen -->
     <div class="initialScreen">
-    <h1>Answer as many questions in 30 seconds</h1>
-    <button class="name">Click me to start</button>
-</div>
+      <h1>Answer as many questions in 30 seconds</h1>
+      <button class="name">Click me to start</button>
+    </div>
 
-<!-- quiz started -->
-<div id="quiz">
-   <div class="questions" class="hide">
+    <!-- quiz started -->
+    <div id="quiz">
+      <div class="questions">
+        <!-- class="hide"> -->
+      </div>
+    </div>
 
-   </div>
-</div>
+    <!-- submit the quiz -->
+    <div id="endQuiz" class="hide">
+      <p>The score is <span id="your-score"></span>.</p>
+      <p>
+        Enter your initials: <input type="text" id="initials" max="2" />
+        <button id="submit">Submit</button>
+      </p>
+    </div>
 
-<!-- submit the quiz -->
-<div id="endQuiz" class="hide">
-    <p>The score is <span id="your-score"></span>.</p>
-    <p>
-      Enter your initials: <input type="text" id="initials" max="2" />
-      <button id="submit">Submit</button>
-    </p>
-</div>
+    <!-- Results of the quiz -->
+    <div id="results"></div>
 
-<!-- Results of the quiz -->
-<div id="results">
-
-</div>
-</body>
+    <script src="timer.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
