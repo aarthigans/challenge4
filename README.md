@@ -9,6 +9,6 @@ Url link: https://aarthigans.github.io/challenge4/
 
 Initially setup the HTML page, then proceed with the logic in js and ended up with css. 
 
-![project screenshot]([https://github.com/aarthigans/](https://github.com/aarthigans/challenge4/blob/main/images/start.png))
-![project screenshot]([https://github.com/aarthigans/](https://github.com/aarthigans/challenge4/blob/main/images/middle.png))
-![project screenshot]([https://github.com/aarthigans/]https://github.com/aarthigans/challenge4/blob/main/images/end.png)
+![project screenshot](https://github.com/aarthigans/challenge4/blob/main/images/start.png)
+![project screenshot](https://github.com/aarthigans/challenge4/blob/main/images/middle.png)
+![project screenshot](https://github.com/aarthigans/challenge4/blob/main/images/end.png)
