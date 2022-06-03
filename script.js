@@ -45,7 +45,7 @@ function TimerCallBack() {
     //   alert('time is less than 0')
     //StopQuiz();
     clearInterval (_timerId); 
-    quizEnd()
+    StopQuiz()
   }
   
  
@@ -89,8 +89,9 @@ function StopQuiz() {
 
 //Reset screen state and show the question one by one by curIndex
 function navigate() {
-  if (_curIndex > _totalQuestions) alert("calling stop quiz");
-  //StopQuiz()
+  if (_curIndex > _totalQuestions) 
+  //alert("calling stop quiz");
+  StopQuiz()
 
   resetState();
   // alert('before show quesion')
@@ -143,10 +144,10 @@ function selectAnswer(e) {
   }
 
   // alert('select buton check')
-  alert(selectedButton.dataset.correct)
+  //alert(selectedButton.dataset.correct)
   if (selectedButton.dataset.correct==='true') {
     _quizScore++;
-    alert(_quizScore)
+    //alert(_quizScore)
   }
 
   document.getElementById("right-answers").innerText = _quizScore;

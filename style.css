@@ -88,3 +88,16 @@ body.wrong{
     height: 70px;
     width: 200px;
 }
+#end-screen{
+    font-size: 1.5 rem;
+    font-weight: bold;
+    padding: 30px 20 px;
+    cursor: pointer;
+
+}
+#submit{
+    font-size: 1.5 rem;
+    font-weight: bold;
+    padding: 30px 20 px;
+    cursor: pointer;
+}
